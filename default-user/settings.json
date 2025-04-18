@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "LNavOpened": "true",
         "AlertWI_林晴羽.png": "true",
         "AlertRegex_林晴羽.png": "true",
@@ -1287,7 +1287,7 @@
         "use_makersuite_sysprompt": false,
         "use_alt_scale": false,
         "squash_system_messages": false,
-        "image_inlining": true,
+        "image_inlining": false,
         "inline_image_quality": "auto",
         "bypass_status_check": false,
         "continue_prefill": false,
