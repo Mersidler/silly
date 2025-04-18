@@ -6,13 +6,11 @@
         "LNavOpened": "true",
         "AlertWI_林晴羽.png": "true",
         "AlertRegex_林晴羽.png": "true",
-        "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
-        "WINavOpened": "true",
-        "AlertWI_疫病公寓.png": "true"
+        "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}"
     },
     "currentVersion": "1.12.13",
     "username": "琉阡",
-    "active_character": "疫病公寓.png",
+    "active_character": "林晴羽.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -667,7 +665,10 @@
         "hypebot": {},
         "vectors": {},
         "variables": {
-            "global": {}
+            "global": {
+                "LAST_RECEIVE_TOKENS": 10,
+                "LAST_RECEIVE_CHARS": 13
+            }
         },
         "attachments": [],
         "character_attachments": {},
@@ -902,6 +903,20 @@
                 "ambient_current_time": 0,
                 "audio_cooldown": 0
             }
+        },
+        "EjsTemplate": {
+            "enabled": true,
+            "generate_enabled": true,
+            "generate_loader_enabled": true,
+            "render_enabled": true,
+            "render_loader_enabled": true,
+            "strict_enabled": false,
+            "debug_enabled": false,
+            "autosave_enabled": true,
+            "preload_worldinfo_enabled": true,
+            "code_blocks_enabled": false,
+            "world_active_enabled": true,
+            "permanent_evaluation_enabled": false
         }
     },
     "tags": [
