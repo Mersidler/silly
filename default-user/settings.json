@@ -8,7 +8,9 @@
         "AlertRegex_林晴羽.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "WINavOpened": "true",
-        "AlertWI_疫病公寓.png": "true"
+        "AlertWI_疫病公寓.png": "true",
+        "SelectedNavTab": "rm_button_characters",
+        "AlertWI_艾瑟瑞尔的阴影：堕落的星辰.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "琉阡",
@@ -914,7 +916,8 @@
     "tag_map": {
         "null": [],
         "林晴羽.png": [],
-        "疫病公寓.png": []
+        "疫病公寓.png": [],
+        "艾瑟瑞尔的阴影：堕落的星辰.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
