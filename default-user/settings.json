@@ -879,17 +879,21 @@
             "updateIndex": 3
         },
         "IMPORTANT_USER_PRIVACY_DATA": {},
-        "JS-Slash-Runner": {
-            "activate_setting": true,
+        "TavernHelper": {
+            "enabled_extension": true,
             "render": {
-                "auto_enable_character_regex": true,
-                "auto_disable_incompatible_options": true,
+                "render_enabled": true,
                 "tampermonkey_compatibility": false,
-                "process_depth": 0,
-                "rendering_optimize": false
+                "render_depth": 3,
+                "render_optimize": false
+            },
+            "script": {
+                "global_script_enabled": true,
+                "scriptsRepository": [],
+                "characters_with_scripts": []
             },
             "audio": {
-                "audio_setting": true,
+                "audio_enabled": true,
                 "bgm_enabled": true,
                 "ambient_enabled": true,
                 "bgm_mode": "repeat",
@@ -903,6 +907,12 @@
                 "ambient_selected": null,
                 "ambient_current_time": 0,
                 "audio_cooldown": 0
+            },
+            "listener": {
+                "enabled": false,
+                "enable_echo": true,
+                "url": "http://localhost:6621",
+                "duration": 100
             }
         }
     },
