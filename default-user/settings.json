@@ -915,6 +915,18 @@
                 "url": "http://localhost:6621",
                 "duration": 100
             }
+        },
+        "st-screamer-extension": {
+            "minDelaySec": 30,
+            "maxDelaySec": 600,
+            "imageUrls": [
+                "https://static.wikia.nocookie.net/villains/images/1/17/SmileDog2ndHD.jpg/revision/latest?cb=20240913205410",
+                "https://static.wikia.nocookie.net/spinpasta/images/b/b9/Jeff_the_Killer.png/revision/latest?cb=20150511173716&path-prefix=de",
+                "https://2ch.hk/ai/src/1143020/17442443021010.png"
+            ],
+            "soundUrl": "./lol.mp3",
+            "flickerIntervalMs": 50,
+            "useContainFit": true
         }
     },
     "tags": [
