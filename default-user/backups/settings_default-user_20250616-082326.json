@@ -1,8 +1,7 @@
 {
     "firstRun": false,
     "accountStorage": {
-        "__migrated": "1",
-        "NavOpened": "false"
+        "__migrated": "1"
     },
     "currentVersion": "1.13.0",
     "username": "流阡",
@@ -1000,11 +999,7 @@
         "muyoo_dataTable": {
             "updateIndex": 4
         },
-        "auto_sort_tags": false,
-        "selectSamplers": {
-            "forceHidden": [],
-            "forceShown": []
-        }
+        "auto_sort_tags": false
     },
     "extension_settings": {
         "apiUrl": "http://localhost:5100",
@@ -1335,12 +1330,6 @@
                 "ambient_selected": null,
                 "ambient_current_time": 0,
                 "audio_cooldown": 0
-            },
-            "listener": {
-                "enabled": false,
-                "enable_echo": true,
-                "url": "http://localhost:6621",
-                "duration": 1000
             }
         }
     },
@@ -1354,8 +1343,7 @@
     "tag_map": {
         "default_Seraphina.png": [
             "1345561466591"
-        ],
-        "null": []
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
