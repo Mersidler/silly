@@ -5,11 +5,13 @@
         "NavOpened": "true",
         "LNavOpened": "true",
         "AlertRegex_【戏剧之王】正则包.png": "true",
-        "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}"
+        "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
+        "AlertWI_史黛拉·法米利昂 V2.0.png": "true",
+        "AlertRegex_史黛拉·法米利昂 V2.0.png": "true"
     },
     "currentVersion": "1.13.0",
     "username": "流阡",
-    "active_character": "【戏剧之王】正则包.png",
+    "active_character": "史黛拉·法米利昂 V2.0.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "【戏剧之王】Cookie_v3.1",
@@ -1009,7 +1011,8 @@
         "selectSamplers": {
             "forceHidden": [],
             "forceShown": []
-        }
+        },
+        "wi_key_input_plaintext": true
     },
     "extension_settings": {
         "apiUrl": "http://localhost:5100",
@@ -1273,7 +1276,8 @@
             }
         ],
         "character_allowed_regex": [
-            "【戏剧之王】正则包.png"
+            "【戏剧之王】正则包.png",
+            "史黛拉·法米利昂 V2.0.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1500,7 +1504,9 @@
             "script": {
                 "global_script_enabled": true,
                 "scriptsRepository": [],
-                "characters_with_scripts": []
+                "characters_with_scripts": [
+                    "史黛拉·法米利昂 V2.0.png"
+                ]
             },
             "audio": {
                 "audio_enabled": true,
@@ -1538,7 +1544,8 @@
             "1345561466591"
         ],
         "null": [],
-        "【戏剧之王】正则包.png": []
+        "【戏剧之王】正则包.png": [],
+        "史黛拉·法米利昂 V2.0.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
