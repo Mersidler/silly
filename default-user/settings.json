@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "NavOpened": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "AlertWI_史黛拉·法米利昂 V2.0.png": "true",
         "AlertRegex_史黛拉·法米利昂 V2.0.png": "true",
@@ -3051,7 +3051,7 @@
         "aimlapi_model": "gpt-4o-mini-2024-07-18",
         "xai_model": "grok-3-beta",
         "pollinations_model": "openai",
-        "custom_model": "claude-3-7-sonnet-20250219",
+        "custom_model": "claude-sonnet-4-20250514",
         "custom_url": "https://claude-api.sukaka.top/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
