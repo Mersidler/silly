@@ -19,7 +19,7 @@
     "xai_model": "grok-3-beta",
     "pollinations_model": "openai",
     "aimlapi_model": "gpt-4o-mini-2024-07-18",
-    "custom_model": "claude-3-7-sonnet-20250219",
+    "custom_model": "claude-sonnet-4-20250514",
     "custom_url": "https://claude-api.sukaka.top/v1",
     "custom_include_body": "",
     "custom_exclude_body": "",
@@ -638,12 +638,13 @@
             "identifier": "57",
             "name": "🔵字数+语言+格式规定(必看！！！)",
             "role": "system",
-            "content": "{{setvar::Word_count::Maximum 900}}\n{{setvar::Word_language::简体中文}}\n{{setvar::Thinking_language::日本語}}\n\n{{//\n修改900→`别的数字`可以调整最大字数限制\n修改Minimum（最小值）和 Maximum（最大值）可变更下限和上限\n可修改“简体中文”为其他语言Maximum 400\n把“日本語”→“English”变成英语思考\n}}\n\n**Craft a dramatic masterpiece of content with {{getvar::Word_count}} words in {{getvar::Word_language}} ** \n\n{{//\n注释：within <theatre> tags\n- 部分角色卡有生成格式，要么把\"<theatre>\"改成角色卡需要的格式\n要么把“within <theatre> tags”删掉，这样正文就会用前段卡要求的格式包裹\n}}\n",
+            "content": "{{setvar::Word_count::Maximum 900}}\n{{setvar::Word_language::简体中文}}\n{{setvar::Thinking_language::简体中文}}\n\n{{//\n修改900→`别的数字`可以调整最大字数限制\n修改Minimum（最小值）和 Maximum（最大值）可变更下限和上限\n可修改“简体中文”为其他语言Maximum 400\n把“日本語”→“English”变成英语思考\n}}\n\n**Craft a dramatic masterpiece of content with {{getvar::Word_count}} words in {{getvar::Word_language}} ** \n\n{{//\n注释：within <theatre> tags\n- 部分角色卡有生成格式，要么把\"<theatre>\"改成角色卡需要的格式\n要么把“within <theatre> tags”删掉，这样正文就会用前段卡要求的格式包裹\n}}\n",
             "injection_position": 0,
             "injection_depth": 4,
             "forbid_overrides": false,
             "marker": false,
-            "system_prompt": false
+            "system_prompt": false,
+            "injection_order": 100
         },
         {
             "identifier": "58",
