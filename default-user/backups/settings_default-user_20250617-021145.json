@@ -15,7 +15,7 @@
     },
     "currentVersion": "1.13.0",
     "username": "流阡",
-    "active_character": "史黛拉·法米利昂 V2.0.png",
+    "active_character": "《Lost Good Things》.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "【戏剧之王】Cookie_v3.1",
@@ -1488,10 +1488,7 @@
         "hypebot": {},
         "vectors": {},
         "variables": {
-            "global": {
-                "LAST_RECEIVE_TOKENS": 8442,
-                "LAST_RECEIVE_CHARS": 26112
-            }
+            "global": {}
         },
         "attachments": [],
         "character_attachments": {},
@@ -1557,22 +1554,6 @@
                 "url": "http://localhost:6621",
                 "duration": 1000
             }
-        },
-        "EjsTemplate": {
-            "enabled": true,
-            "generate_enabled": true,
-            "generate_loader_enabled": true,
-            "render_enabled": true,
-            "render_loader_enabled": true,
-            "with_context_disabled": false,
-            "debug_enabled": false,
-            "autosave_enabled": false,
-            "preload_worldinfo_enabled": true,
-            "code_blocks_enabled": true,
-            "world_active_enabled": true,
-            "raw_message_evaluation_enabled": false,
-            "filter_message_enabled": true,
-            "cache_enabled": false
         }
     },
     "tags": [
