@@ -2,19 +2,17 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "LNavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "AlertWI_史黛拉·法米利昂 V2.0.png": "true",
         "AlertRegex_史黛拉·法米利昂 V2.0.png": "true",
         "WINavOpened": "true",
-        "SelectedNavTab": "rm_button_characters",
-        "AlertWI_《Lost Good Things》.png": "true",
-        "AlertRegex_《Lost Good Things》.png": "true"
+        "SelectedNavTab": "rm_button_characters"
     },
     "currentVersion": "1.13.0",
     "username": "流阡",
-    "active_character": "《Lost Good Things》.png",
+    "active_character": "史黛拉·法米利昂 V2.0.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "【戏剧之王】Cookie_v3.1",
@@ -1298,8 +1296,7 @@
             }
         ],
         "character_allowed_regex": [
-            "史黛拉·法米利昂 V2.0.png",
-            "《Lost Good Things》.png"
+            "史黛拉·法米利昂 V2.0.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1583,7 +1580,6 @@
     "tag_map": {
         "null": [],
         "史黛拉·法米利昂 V2.0.png": [],
-        "《Lost Good Things》.png": [],
         "童年回忆这一块.png": []
     },
     "nai_settings": {
