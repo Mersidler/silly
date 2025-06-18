@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "LNavOpened": "false",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "AlertWI_史黛拉·法米利昂 V2.0.png": "true",
@@ -1581,9 +1581,6 @@
         }
     ],
     "tag_map": {
-        "default_Seraphina.png": [
-            "1345561466591"
-        ],
         "null": [],
         "史黛拉·法米利昂 V2.0.png": [],
         "《Lost Good Things》.png": [],
