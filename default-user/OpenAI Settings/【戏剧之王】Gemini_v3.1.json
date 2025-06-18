@@ -36,7 +36,7 @@
     "min_p": 0,
     "repetition_penalty": 1,
     "openai_max_context": 2000000,
-    "openai_max_tokens": 8192,
+    "openai_max_tokens": 50000,
     "wrap_in_quotes": false,
     "names_behavior": -1,
     "send_if_empty": "",
@@ -53,7 +53,7 @@
     "scenario_format": "[Circumstances: {{scenario}}]",
     "personality_format": "[{{char}}'s personality: {{personality}}]",
     "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
-    "stream_openai": false,
+    "stream_openai": true,
     "prompts": [
         {
             "identifier": "1",
