@@ -8,9 +8,7 @@
         "AlertWI_史黛拉·法米利昂 V2.0.png": "true",
         "AlertRegex_史黛拉·法米利昂 V2.0.png": "true",
         "WINavOpened": "true",
-        "SelectedNavTab": "rm_button_characters",
-        "AlertWI_剑与魔法.png": "true",
-        "AlertRegex_剑与魔法.png": "true"
+        "SelectedNavTab": "rm_button_characters"
     },
     "currentVersion": "1.13.0",
     "username": "流阡",
@@ -1298,8 +1296,7 @@
             }
         ],
         "character_allowed_regex": [
-            "史黛拉·法米利昂 V2.0.png",
-            "剑与魔法.png"
+            "史黛拉·法米利昂 V2.0.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1584,8 +1581,7 @@
         "null": [],
         "史黛拉·法米利昂 V2.0.png": [],
         "童年回忆这一块.png": [],
-        "《Lost Good Things》.png": [],
-        "剑与魔法.png": []
+        "《Lost Good Things》.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
