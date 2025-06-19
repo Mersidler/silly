@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "NavOpened": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "AlertWI_史黛拉·法米利昂 V2.0.png": "true",
         "AlertRegex_史黛拉·法米利昂 V2.0.png": "true",
@@ -2034,12 +2034,13 @@
                 "identifier": "37",
                 "name": "♊现状分析",
                 "role": "system",
-                "content": "{{//\n-目前的情况怎么样？\n时间和地点？\n角色的态度？\n角色动作？\n事件进展等等？}}\n\n―現状はどうですか？\n時間と場所？\nキャラクターの態度？\nキャラクターの行動？\nイベントの進行など？",
+                "content": "{{//\n-目前的情况怎么样？\n时间和地点？\n角色的态度？\n角色动作？\n事件进展等等？}}",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false,
                 "marker": false,
-                "system_prompt": false
+                "system_prompt": false,
+                "injection_order": 100
             },
             {
                 "identifier": "38",
