@@ -12,11 +12,13 @@
         "AlertWI_珠矶.png": "true",
         "AlertRegex_珠矶.png": "true",
         "AlertWI_Metamorphosis.png": "true",
-        "AlertRegex_Metamorphosis.png": "true"
+        "AlertRegex_Metamorphosis.png": "true",
+        "AlertWI_NTRS俱乐部.png": "true",
+        "AlertRegex_NTRS俱乐部.png": "true"
     },
     "currentVersion": "1.13.1",
     "username": "流阡",
-    "active_character": "Metamorphosis.png",
+    "active_character": "NTRS俱乐部.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "【戏剧之王】Cookie_v3.1",
@@ -1302,7 +1304,8 @@
         "character_allowed_regex": [
             "史黛拉·法米利昂 V2.0.png",
             "珠矶.png",
-            "Metamorphosis.png"
+            "Metamorphosis.png",
+            "NTRS俱乐部.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1592,7 +1595,8 @@
         "珠矶.png": [],
         "Metamorphosis.png": [],
         "大夏国.png": [],
-        "网调大师.png": []
+        "网调大师.png": [],
+        "NTRS俱乐部.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
